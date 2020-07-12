@@ -16,6 +16,12 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    {/* <div className="callout">
+      <div className="container">
+        <h1>{subheading}</h1>
+      </div>
+    </div>   */}
+      
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -37,11 +43,11 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className=".header-shadow has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(31,95,97) 0.5rem 0px 0px, rgb(31,95,97) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(31,95,97)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -50,25 +56,37 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen "
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            // boxShadow:
+            //   'rgb(31,95,97) 0.5rem 0px 0px, rgb(31,95,97) -0.5rem 0px 0px',
+            // backgroundColor: 'rgb(31,95,97)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            textAlign: 'center'
           }}
         >
-          {subheading}
+          {/* {subheading}  */}
+          Join the Breeze Capital Group family
         </h3>
+        
+        <input></input>
       </div>
     </div>
+
+    <div className="callout">
+      <div className="container">
+        <h1 className="has-text-weight-bold">{subheading}</h1>
+      </div>
+    </div>  
+
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10 is-offset-1">
+            <div className="column is-12">
               <div className="content">
                 <div className="content">
                   <div className="tile">
@@ -86,11 +104,11 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                {/* <Features gridItems={intro.blurbs} /> */}
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all products
+                      How we operate
                     </Link>
                   </div>
                 </div>

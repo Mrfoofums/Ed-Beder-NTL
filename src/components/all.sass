@@ -2,16 +2,37 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #f9d5a8
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$highlight: #1f5f61
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+.callout
+  display: grid
+  justify-content: center
+  align-content: center
+  min-height: 80px
+  height:auto
+  background-color: $highlight
+  color: white
+  font-size: 300%
+  margin-top: 5px
+
+.navbar
+  height: 100px
+  margin-top: 1vh
+  margin-bottom: 1vh
+
+.navbar-item-big
+  width: 150px
+  height: auto
 
 .content .taglist
   list-style: none
@@ -31,7 +52,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 100vh
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +65,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 60vh
     background-size: cover
     background-position: bottom
     display: flex
@@ -93,6 +114,9 @@ $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
 
+.header-shadow
+  box-shadow: #1f5f61 0.5rem 0px 0px,#1f5f61 -0.5rem 0px 0px
+  background-color: #1f5f61
 
 .menu-label
   font-size: 1em !important

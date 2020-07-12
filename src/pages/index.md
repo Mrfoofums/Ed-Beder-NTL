@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Breeze Capital Group
+image: /img/ocean1.jpg
+heading: Passive Income, Done Correctly
+subheading: Sound Wealth Building for the Passive Investor
 mainpitch:
-  title: Why Kaldi
+  title: Who we are
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
